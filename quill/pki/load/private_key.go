@@ -7,7 +7,7 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 func PrivateKey(path string, password string) (crypto.PrivateKey, error) {

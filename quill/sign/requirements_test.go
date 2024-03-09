@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/quill/internal/test"
-	"github.com/anchore/quill/quill/macho"
-	"github.com/anchore/quill/quill/pki"
+	"github.com/dustin-decker/quill/internal/test"
+	"github.com/dustin-decker/quill/quill/macho"
+	"github.com/dustin-decker/quill/quill/pki"
 )
 
 // TODO: useful for debugging, but doest test anything

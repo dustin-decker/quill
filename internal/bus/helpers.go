@@ -5,8 +5,8 @@ import (
 	"github.com/wagoodman/go-progress"
 
 	"github.com/anchore/bubbly"
-	"github.com/anchore/quill/internal/redact"
-	"github.com/anchore/quill/quill/event"
+	"github.com/dustin-decker/quill/internal/redact"
+	"github.com/dustin-decker/quill/quill/event"
 )
 
 func PublishTask(titles event.Title, context string, total int) *event.ManualStagedProgress {

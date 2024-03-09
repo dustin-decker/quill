@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/anchore/clio"
-	"github.com/anchore/quill/cmd/quill/cli"
-	"github.com/anchore/quill/internal"
+	"github.com/dustin-decker/quill/cmd/quill/cli"
+	"github.com/dustin-decker/quill/internal"
 )
 
 const valueNotProvided = "[not provided]"

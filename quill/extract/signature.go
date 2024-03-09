@@ -12,7 +12,7 @@ import (
 	"github.com/github/smimesign/ietf-cms/oid"
 	"github.com/github/smimesign/ietf-cms/protocol"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 type SignatureDetails struct {

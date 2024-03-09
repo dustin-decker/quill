@@ -7,7 +7,7 @@ import (
 	"github.com/anchore/go-logger"
 	"github.com/anchore/go-logger/adapter/discard"
 	"github.com/anchore/go-logger/adapter/redact"
-	intRedact "github.com/anchore/quill/internal/redact"
+	intRedact "github.com/dustin-decker/quill/internal/redact"
 )
 
 var log = discard.New()

@@ -13,8 +13,8 @@ import (
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/klauspost/compress/zip"
 
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/macho"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/macho"
 )
 
 type Payload struct {

@@ -10,8 +10,8 @@ import (
 	blacktopMacho "github.com/blacktop/go-macho"
 
 	macholibre "github.com/anchore/go-macholibre"
-	"github.com/anchore/quill/internal/utils"
-	"github.com/anchore/quill/quill/macho"
+	"github.com/dustin-decker/quill/internal/utils"
+	"github.com/dustin-decker/quill/quill/macho"
 )
 
 func NewFile(binPath string) ([]*File, error) {

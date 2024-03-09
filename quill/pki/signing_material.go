@@ -6,9 +6,9 @@ import (
 	"encoding/asn1"
 	"fmt"
 
-	"github.com/anchore/quill/quill/pki/apple"
-	"github.com/anchore/quill/quill/pki/certchain"
-	"github.com/anchore/quill/quill/pki/load"
+	"github.com/dustin-decker/quill/quill/pki/apple"
+	"github.com/dustin-decker/quill/quill/pki/certchain"
+	"github.com/dustin-decker/quill/quill/pki/load"
 )
 
 type SigningMaterial struct {

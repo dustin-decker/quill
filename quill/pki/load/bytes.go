@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 func BytesFromFileOrEnv(path string) ([]byte, error) {

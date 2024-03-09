@@ -5,7 +5,7 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 func Certificates(path string) ([]*x509.Certificate, error) {

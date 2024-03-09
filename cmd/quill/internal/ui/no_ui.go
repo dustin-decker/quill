@@ -4,7 +4,7 @@ import (
 	"github.com/wagoodman/go-partybus"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/quill/quill/event"
+	"github.com/dustin-decker/quill/quill/event"
 )
 
 var _ clio.UI = (*NoUI)(nil)

@@ -10,8 +10,8 @@ import (
 	"github.com/anchore/bubbly"
 	"github.com/anchore/bubbly/bubbles/prompt"
 	"github.com/anchore/bubbly/bubbles/taskprogress"
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/event"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/event"
 )
 
 var _ bubbly.EventHandler = (*Handler)(nil)

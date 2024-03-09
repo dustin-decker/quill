@@ -8,7 +8,7 @@ import (
 
 	"software.sslmate.com/src/go-pkcs12"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 var ErrNeedPassword = errors.New("need password to decode file")

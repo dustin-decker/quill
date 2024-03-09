@@ -4,7 +4,7 @@ import (
 	"crypto/x509"
 	"fmt"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 func VerifyForCodeSigning(certs []*x509.Certificate, failWithoutFullChain bool) error {

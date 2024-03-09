@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/anchore/quill/internal/test"
-	"github.com/anchore/quill/test/trait"
+	"github.com/dustin-decker/quill/internal/test"
+	"github.com/dustin-decker/quill/test/trait"
 )
 
 func Test_P12DescribeCommand(t *testing.T) {

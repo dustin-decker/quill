@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/anchore/quill/quill/macho"
+	"github.com/dustin-decker/quill/quill/macho"
 	"github.com/go-restruct/restruct"
 )
 

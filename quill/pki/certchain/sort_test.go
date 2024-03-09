@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/quill/internal/test"
-	"github.com/anchore/quill/quill/pki/load"
+	"github.com/dustin-decker/quill/internal/test"
+	"github.com/dustin-decker/quill/quill/pki/load"
 )
 
 func Test_sortCertificates(t *testing.T) {

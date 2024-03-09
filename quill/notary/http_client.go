@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 type httpClient struct {

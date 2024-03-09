@@ -5,9 +5,9 @@ import (
 
 	"github.com/anchore/go-logger"
 	"github.com/anchore/go-logger/adapter/redact"
-	"github.com/anchore/quill/internal/bus"
-	"github.com/anchore/quill/internal/log"
-	intRedact "github.com/anchore/quill/internal/redact"
+	"github.com/dustin-decker/quill/internal/bus"
+	"github.com/dustin-decker/quill/internal/log"
+	intRedact "github.com/dustin-decker/quill/internal/redact"
 )
 
 // SetLogger sets the logger object used for all logging calls.

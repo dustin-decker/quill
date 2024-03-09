@@ -13,7 +13,7 @@ import (
 	"github.com/go-restruct/restruct"
 
 	macholibre "github.com/anchore/go-macholibre"
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 const (

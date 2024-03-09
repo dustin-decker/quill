@@ -8,10 +8,10 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/quill/cmd/quill/cli/options"
-	"github.com/anchore/quill/internal/bus"
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/extract"
+	"github.com/dustin-decker/quill/cmd/quill/cli/options"
+	"github.com/dustin-decker/quill/internal/bus"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/extract"
 )
 
 type extractCertificatesConfig struct {

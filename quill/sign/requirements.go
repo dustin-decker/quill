@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-restruct/restruct"
 
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/macho"
-	"github.com/anchore/quill/quill/pki"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/macho"
+	"github.com/dustin-decker/quill/quill/pki"
 )
 
 const (

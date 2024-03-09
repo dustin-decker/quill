@@ -14,10 +14,10 @@ import (
 	"github.com/anchore/bubbly/bubbles/frame"
 	"github.com/anchore/clio"
 	"github.com/anchore/go-logger"
-	handler "github.com/anchore/quill/cmd/quill/cli/ui"
-	"github.com/anchore/quill/internal/bus"
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/event"
+	handler "github.com/dustin-decker/quill/cmd/quill/cli/ui"
+	"github.com/dustin-decker/quill/internal/bus"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/event"
 )
 
 var _ interface {

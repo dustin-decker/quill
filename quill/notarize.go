@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anchore/quill/internal/bus"
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/event"
-	"github.com/anchore/quill/quill/notary"
+	"github.com/dustin-decker/quill/internal/bus"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/event"
+	"github.com/dustin-decker/quill/quill/notary"
 )
 
 type NotarizeConfig struct {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/scylladb/go-set/strset"
 
-	"github.com/anchore/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/log"
 )
 
 // Find will look for the full certificate chain for the given certificate from the given cert store.

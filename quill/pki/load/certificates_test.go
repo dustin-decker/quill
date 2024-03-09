@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/quill/internal/test"
+	"github.com/dustin-decker/quill/internal/test"
 )
 
 func Test_loadCertFromFile(t *testing.T) {

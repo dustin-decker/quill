@@ -4,11 +4,11 @@ import (
 	"os"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/quill/cmd/quill/cli/commands"
-	"github.com/anchore/quill/cmd/quill/internal/ui"
-	"github.com/anchore/quill/internal/bus"
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/internal/redact"
+	"github.com/dustin-decker/quill/cmd/quill/cli/commands"
+	"github.com/dustin-decker/quill/cmd/quill/internal/ui"
+	"github.com/dustin-decker/quill/internal/bus"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/internal/redact"
 )
 
 func New(id clio.Identification) clio.Application {

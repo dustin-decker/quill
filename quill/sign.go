@@ -8,13 +8,13 @@ import (
 	blacktopMacho "github.com/blacktop/go-macho"
 
 	macholibre "github.com/anchore/go-macholibre"
-	"github.com/anchore/quill/internal/bus"
-	"github.com/anchore/quill/internal/log"
-	"github.com/anchore/quill/quill/event"
-	"github.com/anchore/quill/quill/macho"
-	"github.com/anchore/quill/quill/pki"
-	"github.com/anchore/quill/quill/pki/load"
-	"github.com/anchore/quill/quill/sign"
+	"github.com/dustin-decker/quill/internal/bus"
+	"github.com/dustin-decker/quill/internal/log"
+	"github.com/dustin-decker/quill/quill/event"
+	"github.com/dustin-decker/quill/quill/macho"
+	"github.com/dustin-decker/quill/quill/pki"
+	"github.com/dustin-decker/quill/quill/pki/load"
+	"github.com/dustin-decker/quill/quill/sign"
 )
 
 type SigningConfig struct {
