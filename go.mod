@@ -1,4 +1,4 @@
-module github.com/anchore/quill
+module github.com/dustin-decker/quill
 
 go 1.18
 
@@ -10,6 +10,7 @@ require (
 	github.com/anchore/fangs v0.0.0-20230628163043-a51c5a39b097
 	github.com/anchore/go-logger v0.0.0-20230725134548-c21dafa1ec5a
 	github.com/anchore/go-macholibre v0.0.0-20220308212642-53e6d0aaf6fb
+	github.com/anchore/quill v0.4.1
 	github.com/aws/aws-sdk-go v1.50.28
 	github.com/blacktop/go-macho v1.1.193
 	github.com/charmbracelet/bubbletea v0.25.0
@@ -44,7 +45,8 @@ require (
 	github.com/erikgeiser/promptkit v0.7.0 // indirect
 	github.com/felixge/fgprof v0.9.3 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
-	github.com/gkampitakis/go-snaps v0.4.5 // indirect
+	github.com/gkampitakis/ciinfo v0.2.4 // indirect
+	github.com/gkampitakis/go-diff v1.3.2 // indirect
 	github.com/go-openapi/errors v0.20.2 // indirect
 	github.com/go-openapi/strfmt v0.21.3 // indirect
 	github.com/google/pprof v0.0.0-20211214055906-6f57359322fd // indirect
@@ -54,6 +56,7 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
@@ -81,7 +84,8 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.15.0 // indirect
 	github.com/subosito/gotenv v1.4.2 // indirect
-	github.com/tidwall/pretty v1.2.1 // indirect
+	github.com/tidwall/gjson v1.14.4 // indirect
+	github.com/tidwall/sjson v1.2.5 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	go.mongodb.org/mongo-driver v1.10.0 // indirect
 	golang.org/x/crypto v0.19.0 // indirect
