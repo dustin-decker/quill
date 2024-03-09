@@ -1,4 +1,4 @@
-module github.com/anchore/quill
+module github.com/dustin-decker/quill
 
 go 1.18
 
